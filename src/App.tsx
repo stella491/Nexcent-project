@@ -9,7 +9,6 @@ import Pana from './components/Pana';
 import Airpod from './components/Airpod';
 import Laptops from './components/Laptops';
 import Footer from './components/Footer';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import Service from './Pages/Service';
 import Feature from './Pages/Feature';
@@ -33,12 +32,7 @@ function App() {
       <Footer/>
    
 
-      <Routes>
-        <Route path="/" element={ <Home />} />
-        <Route path="/feature" element={<Feature />} />
-        <Route path="/service" element={<Service />} />
-
-      </Routes>
+     
 
 
     </>
